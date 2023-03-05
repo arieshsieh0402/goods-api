@@ -1,0 +1,20 @@
+{
+    "server": {
+        "hostname": "localhost",
+        "port": 5000
+    },
+    "authorization" : {
+        "token_algo": "HS256",
+        "secret_key": "secret_key",
+        "expire_mins": 10
+    },
+    "database": {
+        "port": "5432",
+        "host": "localhost",
+        "db_name": "db_name",
+        "username": "username",
+        "password": "password",
+        "poolmin": 5,
+        "poolmax": 20
+    }
+}
